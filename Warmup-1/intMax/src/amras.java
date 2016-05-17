@@ -13,9 +13,13 @@ public class amras {
     public static void main(String[] args) {
 
 
+        System.out.println(intMax(1, 2, 3));
+        System.out.println(intMax(1, 3, 2));
+        System.out.println(intMax(3, 2, 1));
+
     }
 
-    public int intMax(int a, int b, int c) {
+    public static int intMax(int a, int b, int c) {
         List<Integer> list = new ArrayList<Integer>();
         list.add(a);
         list.add(b);
