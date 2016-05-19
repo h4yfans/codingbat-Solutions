@@ -12,7 +12,7 @@ public class theEnd {
         System.out.println(theEnd("Hello", true));
         System.out.println(theEnd("Hello", false));
         System.out.println(theEnd("oh", true));
-        
+
     }
 
     public static String theEnd(String str, boolean front) {
@@ -22,8 +22,5 @@ public class theEnd {
         } else {
             return str.substring(str.length() - 1, str.length());
         }
-
     }
-
-
 }
