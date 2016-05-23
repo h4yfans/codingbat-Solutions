@@ -11,13 +11,6 @@
  * xyBalance("yaaxbb") → false
  */
 public class xyBalance {
-    public static void main(String[] args) {
-
-        String s = "kaankaraca";
-        System.out.println(s.indexOf("c"));
-
-
-    }
 
     public boolean xyBalance(String str) {
 
