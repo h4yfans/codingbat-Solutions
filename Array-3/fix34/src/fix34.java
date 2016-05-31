@@ -11,6 +11,7 @@
  * fix34([3, 2, 2, 4]) → [3, 4, 2, 2]
  */
 public class fix34 {
+    public int[] fix34(int[] nums) {
 
         if(nums.length < 3) return nums;
         for (int i = 0; i < nums.length-1; i++) {
