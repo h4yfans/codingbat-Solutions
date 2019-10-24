@@ -22,7 +22,7 @@ public class zipZap {
 
         if (str.length() <= 2) return str;
 
-        for (int i = 0; i < str.length() - 2; i++) {
+        for (int i = 0; i < str.length(); i++) {
             if (str.substring(i, i + 1).equals("z") && str.substring(i + 2, i + 3).equals("p")) {
                 newS += str.substring(i, i + 1) + str.substring(i + 2, i + 3);
                 i += 2;
